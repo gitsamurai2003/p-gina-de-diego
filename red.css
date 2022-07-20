@@ -1,0 +1,13 @@
+body{
+	background:url("../img/apex.jpg");
+	background-attachment: fixed;
+}
+#logo{
+	background: rgb(128, 25, 25);
+}   
+#menu ul li:hover{
+	background:rgb(128, 25, 25);
+}
+.button-more{
+	background:rgb(128, 25, 25);
+}

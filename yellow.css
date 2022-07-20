@@ -1,0 +1,13 @@
+body{
+	background:url("../img/maggie.jpg");
+	background-attachment: fixed;
+}
+#logo{
+	background: rgb(207, 191, 40);
+}   
+#menu ul li:hover{
+	background:rgb(207, 191, 40);
+}
+.button-more{
+	background:rgb(207, 191, 40);
+}

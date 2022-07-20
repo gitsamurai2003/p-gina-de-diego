@@ -1,0 +1,13 @@
+body{
+	background:url("../img/Apw.jpg");
+	background-attachment: fixed;
+}
+#logo{
+	background: rgb(28, 28, 121);
+}   
+#menu ul li:hover{
+	background:rgb(28, 28, 121);;
+}
+.button-more{
+	background: rgb(28, 28, 121);
+}

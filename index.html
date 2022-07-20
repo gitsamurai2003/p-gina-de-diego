@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Projecto JS</title>
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link  id="theme" rel="stylesheet" type="text/css" href="css/blue.css" />
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--Slider-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">       
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--Moment js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <!--scripts-->
+        <script type="text/javascript" src="js/main.js"></script>
+    <body>
+        <div id="selector-theme">
+            <div id="to-red"></div>
+            <div id="to-yellow"></div>
+            <div id="to-blue"></div>
+        </div>
+
+        <section id="global">
+
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                    <h1>Apex legends</h1>
+                </div>
+
+               <div class="clearfix">
+
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Reloj</a></li>
+                        <li><a href="#">Sobre mi</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--slider-->
+            <div id="slider">
+                <div class="bxslider">
+                    <div><img src="img/pathfinder.jpg" title="pathfinder"></div>
+                    <div><img src="img/wraith.jpg" title="wraith"></div>
+                    <div><img src="img/gordo.jpg" title="gorda"></div>
+                </div>
+            </div>
+
+            <!--contenido-->
+            <section id="content">
+                <div id="posts">
+                  
+                </div>
+
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4>Bloodhunt</h4>
+                        <img src="img/bloodhunt.jpg"/>
+                        <p><span>Bloodhound es una leyenda de reconocimiento.
+                            Bloodhound es una Leyenda de ritmo rápido excelente para empujar 
+                            al enemigo en su base.</span></p>
+                    </div>
+
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">
+                                Nombre
+                            </label>
+                            <input type="text" name="name"/>
+
+                            <label for="email">
+                                Correo electronico
+                            </label>
+                            <input type="text" name="email"/>
+
+                            <label for="password">
+                                Contraseña
+                            </label>
+                            <input type="text" name="password"/> 
+                            
+                            <input type="submit" value="Entrar" />
+                        </form>
+                    </div>
+                </aside>   
+                <div class="clearfix"></div>             
+            </section>
+
+        </section>
+        <footer>
+            Master de Apex legend Diego Orellana &copy;
+        </footer>
+    </body>
+</html>
