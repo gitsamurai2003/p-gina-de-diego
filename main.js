@@ -4,7 +4,7 @@ $(document).ready(function(){
   var cargado=localStorage.getItem("color");
   //si no existe color guardado en el localstorage va a retornar null y lo validamos con un if
   if(cargado==null){
-      cargado="css/blue.css";
+      cargado="/blue.css";
   }
 //cargamos el tema
   tema.attr("href",cargado);
@@ -57,20 +57,20 @@ $(document).ready(function(){
 
     $("#to-yellow").click(function(){
       //cargamos la ruta del css en una variable
-      let yellow="css/yellow.css"; 
+      let yellow="/yellow.css"; 
       tema.attr("href",yellow);
        // lo guardamos en el localStorage
       localStorage.setItem("color",yellow)
     });
  
     $("#to-red").click(function(){
-      let red="css/red.css";
+      let red="/red.css";
       tema.attr("href",red);
       localStorage.setItem("color", red);
     });
  
     $("#to-blue").click(function(){
-        let blue="css/blue.css"
+        let blue="/blue.css"
         tema.attr("href",blue);
         localStorage.setItem("color", blue);
     });  
